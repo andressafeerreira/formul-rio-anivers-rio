@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand-light: #59B2FF;
+  --brand-mid: #3487CF;
+  --brand-dark: #1D6FB6;
+  --purple: #B259FF;
+  --fuschia: #FF59F9;
+  --pink: #FF598B;
+  --orange: #FF8B59;
+  --yellow: #FFCD59;
+  --lime: #E1FF59;
+  --green: #59FF91;
+  --cyan: #59FFF9;
+  --navy: #6A59FF;
+  --danger: #FF5959;
+  --input-base: #1C1F21;
+  --input-stroke: #363B40;
+  --input-placeholder: #869198;
+  --shape-background: #131516;
+  --shape-body: #212427;
+  --shape-button: #2D3136;
+  --shape-hover: #383D42;
+  --text-body: #C8CDD0;
+  --text-heading: #F9F9F9;
+  
+  --font-family: 'Lackerni One', sans-serif, 40px, auto;
+  --font-family-ballo: "Baloo 2", sans-serif;
+  --font-family-ballo-md: 28px, auto, var(--font-family-ballo); 
+  --font-family-ballo-sm: 18px, auto, var(--font-family-ballo); 
+  --font-open: "Open Sans", sans-serif;
+  --font-open-md: 16 auto regular var(--font-open);
+  --font-open-sm: 14px auto regular var(--font-open);
+  --font-open-xs: 12px auto regular var(--font-open);
+
+}
+
+body {
+  overflow: hidden;
+  background: var(--shape-background);
+}
+
+.all {
+  display: grid;
+  justify-content: center;
+  
+}
+
+.all-1 {
+  width: 560px;
+  padding-left: 0pc;;
+}
+
+.title {
+  color: var(--text-heading);
+  padding: 50px;
+  align-items: start;
+  font-family: var(--font-family-ballo);
+  padding-bottom: 40px;
+}
+
+.calendar {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  padding-right: 10px;
+}
+
+.title-second {
+  color: var(--text-heading);
+  font-family: var(--font-family-ballo);
+  font-size: medium;
+  
+}
+
+.input-principal {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.input {
+  display: grid;
+  padding-top: 24px;
+
+}
+
+.description {
+  color: var(--text-body);
+  font-family: var(--font-family-ballo);
+  
+}
+
+.information {
+  height: 30px;
+  border-radius: 5px;
+  background-color: var(--input-base);
+  border: 1px solid var(--input-placeholder);
+}
+
+.initial {
+  padding-top: 10px;
+  width: 272px;
+}
+
+.date {
+  width: 100%;
+  color: var(--text-body);
+}
+
+.calendar-2 {
+  display: flex;
+  align-items: center;
+}
+
+
+.customization {
+  padding-top: 20px;
+}
+
+.cor {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.customization-2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.event {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.gap {
+  padding-bottom: 10px;
+}
