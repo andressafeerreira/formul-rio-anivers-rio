@@ -40,7 +40,7 @@
 }
 
 body {
-  overflow: hidden;
+
   background: var(--shape-background);
 }
 
@@ -52,7 +52,7 @@ body {
 
 .all-1 {
   width: 560px;
-  padding-left: 0pc;;
+  padding-left: 0px;
 }
 
 .title {
@@ -144,4 +144,46 @@ img {
 
 .gap {
   padding-bottom: 10px;
+}
+
+.condições {
+  color: var(--text-heading);
+  font-family: var(--font-family-ballo);
+}
+
+.checkbox {
+  display: flex;
+  padding-top: 10px;
+  gap: 10px;
+  
+}
+
+input {
+  color: white;
+  text-indent: 10px; 
+}
+
+.style {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  
+}
+
+.escuro {
+  display: flex;
+  align-items: center;
+}
+
+.arquivo {
+  padding-left: 100px;
+}
+
+.capa {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.description {
+  padding-left: 10px;
 }
